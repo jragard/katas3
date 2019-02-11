@@ -36,60 +36,74 @@ function kata2() {
   return twenty.filter(x => x % 2 === 0);
 }
 
-// kata3: () => {
-//   return twenty.filter(x => x % 2 !== 0);
-// },
-// kata4: () => {
-//   return hundred.filter(x => x % 5 === 0);
-// },
-// kata5: () => {
-//   return hundred.filter(x => Number.isInteger(Math.sqrt(x)));
-// },
+function kata3() {
+  return twenty.filter(x => x % 2 !== 0);
+}
 
-// kata6: () => {
-//   return twentyReversed;
-// },
-// kata7: () => {
-//   return twentyReversed.filter(x => x % 2 === 0);
-// },
-// kata8: () => {
+function kata4 () {
+  return hundred.filter(x => x % 5 === 0);
+}
+
+function kata5() {
+  return hundred.filter(x => Number.isInteger(Math.sqrt(x)));
+}
+
+function kata6() {
+  return twentyReversed;
+}
+
+function kata7() {
+  return twentyReversed.filter(x => x % 2 === 0);
+}
+
+// function kata8() {
 //   return twentyReversed.filter(x => x % 2 !== 0);
-// },
+// }
 
-// kata9: () => {
+// function kata9() {
 //   return hundredReversed.filter(x => x % 5 === 0);
-// },
-// kata10: () => {
+// }
+
+// function kata10 () {
 //   return hundredReversed.filter(x => Number.isInteger(Math.sqrt(x)));
-// },
-// kata11: () => {
+// }
+
+// function kata11() {
 //   return sampleArray;
-// },
-// kata12: () => {
+// }
+
+// function kata12() {
 //   return sampleArray.filter(number => number % 2 === 0);
-// },
-// kata13: () => {
+// }
+
+// function kata13() {
 //   return sampleArray.filter(number => number % 2 !== 0);
-// },
-// kata14: () => {
+// }
+
+// function kata14() {
 //   return sampleArray.map(x => x * x);
-// },
-// kata15: () => {
+// }
+
+// function kata15() {
 //   const sum = (total, num) => total + num;
 //   let N = 21;
 //   let a = Array.apply(null, { length: N }).map(Number.call, Number);
 //   return a.reduce(sum);
 // }
-// kata16: () => {
+
+// function kata16() {
 //   const sum = (total, num) => total + num;
-//   return ;
-// },
-// kata17: () => {
+//   return sum;
+// }
+
+// function kata17() {
 //   return 20;
-// },
-// kata18: () => {
+// }
+
+// function kata18() {
 //   return 940;
 // }
-// kata19: () => {
+
+// function kata19() {
 //   return 1;
 // }
